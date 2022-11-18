@@ -11,7 +11,8 @@
       "value": "#fff"
     },
     "shape": {
-      "type": "circle",
+      "type": ["circle", "edge", "polygon"],
+      "random":true,
       "polygon": {
         "nb_sides": 5
       }
